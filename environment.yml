@@ -10,3 +10,4 @@ dependencies:
   - ipycytoscape
   - matplotlib
   - clustalo
+  - logomaker
