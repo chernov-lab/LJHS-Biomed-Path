@@ -1,13 +1,16 @@
-name: big-data
+name: base
 channels:
-  - conda-forge
-  - bioconda
   - defaults
 dependencies:
-  - biopython
-  - blast>=2.7.1
-  - cd-hit>=4.8.1
-  - ipycytoscape
-  - matplotlib
-  - clustalo
-  - logomaker
+  - conda
+  - python=3.9
+  - python.app
+  - conda-env
+  - conda-build
+  - conda-verify
+  - _ipyw_jlab_nb_ext_conf
+  - anaconda==2021.11=py39_0
+  - anaconda-navigator
+  - navigator-updater
+  - wget
+prefix: /Users/achernov/opt/anaconda3
